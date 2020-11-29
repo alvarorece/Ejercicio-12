@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>VariosArchivos</title>
+    <link rel="stylesheet" href="Ejercicio12G_files/Ejercicio12.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Selecciona varios archivos</h1>
+        </header>
+        <input id="upload" type="file" name="Archivos" onchange="controller.showFilesInfo()" multiple="">
+        <section id="fileInfo">
+            
+        <section><header><h2>Info</h2></header><p>El tamaño total de los archivos es de undefined bytes</p><section><header><h2>Ejemplo.json</h2></header><p>Tamaño: 787 bytes, Tipo: application/json</p><section><header><h3>Contenido del fichero</h3></header><code>{
+    "glossary": {
+        "title": "example glossary",
+        "GlossDiv": {
+            "title": "S",
+            "GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+                    "SortAs": "SGML",
+                    "GlossTerm": "Standard Generalized Markup Language",
+                    "Acronym": "SGML",
+                    "Abbrev": "ISO 8879:1986",
+                    "GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                        "GlossSeeAlso": [
+                            "GML",
+                            "XML"
+                        ]
+                    },
+                    "GlossSee": "markup"
+                }
+            }
+        }
+    }
+}</code></section></section><section><header><h2>Ejemplo.xml</h2></header><p>Tamaño: 554 bytes, Tipo: text/xml</p><section><header><h3>Contenido del fichero</h3></header><code>&lt;glossary&gt;
+    &lt;title&gt;example glossary&lt;/title&gt;
+    &lt;GlossDiv&gt;
+        &lt;title&gt;S&lt;/title&gt;
+        &lt;GlossList&gt;
+            &lt;GlossEntry ID="SGML" SortAs="SGML"&gt;
+                &lt;GlossTerm&gt;Standard Generalized Markup Language&lt;/GlossTerm&gt;
+                &lt;Acronym&gt;SGML&lt;/Acronym&gt;
+                &lt;Abbrev&gt;ISO 8879:1986&lt;/Abbrev&gt;
+                &lt;GlossDef&gt;
+                    &lt;para&gt;A meta-markup language, used to create markup
+languages such as DocBook.&lt;/para&gt;
+                &lt;/GlossDef&gt;
+            &lt;/GlossEntry&gt;
+        &lt;/GlossList&gt;
+    &lt;/GlossDiv&gt;
+&lt;/glossary&gt;</code></section></section><section><header><h2>Ejemplo.txt</h2></header><p>Tamaño: 24 bytes, Tipo: text/plain</p><section><header><h3>Contenido del fichero</h3></header><code>Un glosario de ejemplo:)</code></section></section></section></section>
+    </section>
+
+<script src="Ejercicio12G_files/Ejercicio12.js"></script>
+</body></html>

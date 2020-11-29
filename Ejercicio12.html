@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VariosArchivos</title>
+    <link rel="stylesheet" href="Ejercicio12.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Selecciona varios archivos</h1>
+        </header>
+        <input id="upload" type="file" name="Archivos" onchange="controller.showFilesInfo()" multiple>
+        <section id="fileInfo">
+            <header>
+                <h2>Información de los archivos</h2>
+            </header>
+        </section>
+    </section>
+</body>
+<script src="Ejercicio12.js"></script>
+</html>
