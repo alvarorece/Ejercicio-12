@@ -14,10 +14,7 @@ class Controller {
     }
     showFilesInfo() {
         this.parentElement.querySelectorAll('*').forEach(n => n.remove());
-        const mainSection = document.createElement('section');
-        const header = document.createElement('header');
-        const h = document.createElement('h2');
-        h.append('Info');
+        const mainSection = document.getElementById('fileInfo');
         header.append(h);
         mainSection.append(header);
         const pAll = document.createElement('p');
